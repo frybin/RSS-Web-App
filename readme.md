@@ -23,3 +23,5 @@ Or, You can edit an existing feed by pressing the edit button that is in the sam
 ![](https://github.com/frybin/RSS-Web-App/blob/master/img/Screenshot-2018-1-18%20MyFlaskApp(4).png "Edit Feed")  
 After editing the field that you would like, by pressing the edit article button, you would be brought back to the homepage with a similar notification as when you added a feed
 ![](https://github.com/frybin/RSS-Web-App/blob/master/img/Screenshot-2018-1-18%20MyFlaskApp(5).png "Edit Successful")
+Finally, if you want to delete an RSS Feed then all you need to do is press the delete button in the row of the feed that you want to delete and the webpage will be refreshed with the feed deleted and a notification on the top saying it was successful
+![](https://github.com/frybin/RSS-Web-App/blob/master/img/Screenshot-2018-1-18%20MyFlaskApp(7).png "Delete Successful")
