@@ -7,11 +7,11 @@ class AddFeedForm(FlaskForm):
     link = StringField('RSS Feed Link', validators=[DataRequired()])
     article_1 = StringField('RSS Feed Tag 1', validators=[DataRequired()])
     article_2 = StringField('RSS Feed Tag 2')
-    submit = SubmitField('Add Article')
+    submit = SubmitField('Add Feed')
 
 class EditFeedForm(FlaskForm):
     name = StringField('RSS Feed Name', validators=[DataRequired()])
     link = StringField('RSS Feed Link', validators=[DataRequired()])
     article_1 = StringField('RSS Feed Tag 1', validators=[DataRequired()])
     article_2 = StringField('RSS Feed Tag 2')
-    submit = SubmitField('Edit Article')
+    submit = SubmitField('Edit Feed')
