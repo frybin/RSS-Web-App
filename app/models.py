@@ -6,6 +6,7 @@ class Feed(db.Model):
     link=db.Column(db.Text,default='')
     article_1=db.Column(db.Text,default='')
     article_2=db.Column(db.Text,default='')
+    hash=db.Column(db.CHAR(32),default='')
 
     def __repr__(self):
         return '<Feed {}>'.format(self.name)
